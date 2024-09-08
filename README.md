@@ -5,7 +5,7 @@
 - When the bot detect the funding rate is lower than the threshold(0.01%), the bot will find the next profitable token pair.
 
 ## Risk management
-- Assume the entry price is X, the liquidation price is Y, if the bot detect the price is going to reach Y (P>=(Y-X)*0.8+X), the bot will close the position in both markets to prevent liquidation.
+- Assume the entry price is X, the liquidation price is Y, if the bot detect the price is going to reach Y ($P\ge(Y-X)*0.8+X$), the bot will close the position in both markets to prevent liquidation.
 
 # How to run the code?
 1. `pip -r requirements.txt` to install the dependencies
